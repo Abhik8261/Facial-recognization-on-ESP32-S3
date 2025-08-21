@@ -1,0 +1,68 @@
+# =========================
+# Arduino / PlatformIO Build Artifacts
+# =========================
+*.elf
+*.bin
+*.hex
+*.eep
+*.map
+*.d
+*.o
+*.a
+*.ld
+
+# Build directories
+build/
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio/libdeps/
+.pio/build/
+.pio/test/
+
+# =========================
+# Edge Impulse Artifacts
+# =========================
+# Keep source code but ignore re-generated archives
+*.zip
+*.tar.gz
+*.tgz
+
+# =========================
+# IDE / OS files
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Logs / Temp
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# SD Card Dumps (optional)
+# =========================
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.raw
+*.bin
+*.dat
